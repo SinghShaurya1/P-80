@@ -41,7 +41,7 @@ export default class SpaceCraftsScreen extends Component {
 
                        {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item}</Text> */} 
                        {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item.name}</Text> */} 
-                       {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item.agency}</Text> */} 
+                       { <Text style={{ color: '#696969', fontSize: 16 }}>{item.agency}</Text> } 
                        {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item.agency.name}</Text> */} 
 
                     <View style={{ marginTop: 10 }}>
@@ -71,13 +71,7 @@ export default class SpaceCraftsScreen extends Component {
                             <Text style={styles.titleText}>Spacecrafts</Text>
                         </View>
                         <View style={{ flex: 0.85 }}>
-                          {/* <FlatList
-                                keyExtractor={}
-                                data={this.state.aircrafts}
-                                renderItem={this.renderItem}
-                                initialNumToRender={10}
-                            /> */}
-
+                        
                             {/* <FlatList
                                 keyExtractor={this.keyExtractor}
                                 data={this.state.aircrafts}
@@ -85,17 +79,14 @@ export default class SpaceCraftsScreen extends Component {
                                 initialNumToRender={10}
                             /> */}
 
-                            {/* <FlatList
+                            { <FlatList
                                 keyExtractor={this.keyExtractor}
                                 data={this.state.aircrafts}
                                 renderItem={this.renderItem}
                                 initialNumToRender={10}
-                            /> */}
+                            /> }
                             
-                            {/* <FlatList
-                                keyExtractor={this.keyExtractor}
-                                initialNumToRender={10}
-                            /> */}
+                            
                         </View>
 
 
